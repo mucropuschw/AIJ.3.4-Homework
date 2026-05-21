@@ -1,0 +1,18 @@
+[
+  {"id": 1, "year": 2000, "expected": true, "description": "divisible by 400"},
+  {"id": 2, "year": 2400, "expected": true, "description": "divisible by 400"},
+  {"id": 3, "year": 1900, "expected": false, "description": "divisible by 100 but not 400"},
+  {"id": 4, "year": 2100, "expected": false, "description": "divisible by 100 but not 400"},
+  {"id": 5, "year": 1996, "expected": true, "description": "divisible by 4 but not 100"},
+  {"id": 6, "year": 2024, "expected": true, "description": "divisible by 4 but not 100"},
+  {"id": 7, "year": 1999, "expected": false, "description": "not divisible by 4"},
+  {"id": 8, "year": 2023, "expected": false, "description": "not divisible by 4"},
+  {"id": 9, "year": -1, "valid": false, "description": "negative year"},
+  {"id": 10, "year": 0, "expected": true, "description": "zero year"},
+  {"id": 11, "year": 1, "expected": false, "description": "smallest positive year"},
+  {"id": 12, "year": 4, "expected": true, "description": "smallest divisible by 4"},
+  {"id": 13, "year": 100, "expected": false, "description": "smallest divisible by 100 but not 400"},
+  {"id": 14, "year": 400, "expected": true, "description": "smallest divisible by 400"},
+  {"id": 15, "year": 9999, "expected": false, "description": "largest valid year within range"},
+  {"id": 16, "year": 10000, "valid": false, "description": "year above maximum range"}
+]
